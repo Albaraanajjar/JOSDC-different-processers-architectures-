@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2023.12.23.00:47:06"
+ outputDirectory="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="MAX 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10M50DAF484C7G"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="7"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="1">
+   <property name="associatedDirectClock" value="" />
+   <property name="clockRate" value="1000" />
+   <property name="clockRateKnown" value="false" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="output" role="clk" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="clktrial2:1.0:AUTO_DEVICE=10M50DAF484C7G,AUTO_DEVICE_FAMILY=MAX 10,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1703285226,AUTO_UNIQUE_ID=(altera_avalon_clock_source:20.1:CLOCK_RATE=1,CLOCK_UNIT=1000)"
+   instancePathKey="clktrial2"
+   kind="clktrial2"
+   version="1.0"
+   name="clktrial2">
+  <parameter name="AUTO_GENERATION_ID" value="1703285226" />
+  <parameter name="AUTO_DEVICE" value="10M50DAF484C7G" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <generatedFiles>
+   <file
+       path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/synthesis/clktrial2.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/synthesis/submodules/verbosity_pkg.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/synthesis/submodules/altera_avalon_clock_source.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/20.1/ip/altera/sopc_builder_ip/verification/altera_avalon_clock_source/altera_avalon_clock_source_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="clktrial2">queue size: 0 starting:clktrial2 "clktrial2"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="clktrial2"><![CDATA["<b>clktrial2</b>" reuses <b>altera_avalon_clock_source</b> "<b>submodules/altera_avalon_clock_source</b>"]]></message>
+   <message level="Debug" culprit="clktrial2">queue size: 0 starting:altera_avalon_clock_source "submodules/altera_avalon_clock_source"</message>
+   <message level="Info" culprit="clock_source_0"><![CDATA["<b>clktrial2</b>" instantiated <b>altera_avalon_clock_source</b> "<b>clock_source_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_avalon_clock_source:20.1:CLOCK_RATE=1,CLOCK_UNIT=1000"
+   instancePathKey="clktrial2:.:clock_source_0"
+   kind="altera_avalon_clock_source"
+   version="20.1"
+   name="altera_avalon_clock_source">
+  <generatedFiles>
+   <file
+       path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/synthesis/submodules/verbosity_pkg.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/ASUS/Desktop/comptition/procbeforeooo/clktrial2/synthesis/submodules/altera_avalon_clock_source.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/20.1/ip/altera/sopc_builder_ip/verification/altera_avalon_clock_source/altera_avalon_clock_source_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="clktrial2" as="clock_source_0" />
+  <messages>
+   <message level="Debug" culprit="clktrial2">queue size: 0 starting:altera_avalon_clock_source "submodules/altera_avalon_clock_source"</message>
+   <message level="Info" culprit="clock_source_0"><![CDATA["<b>clktrial2</b>" instantiated <b>altera_avalon_clock_source</b> "<b>clock_source_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

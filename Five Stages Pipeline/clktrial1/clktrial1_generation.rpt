@@ -1,0 +1,35 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\ASUS\Desktop\comptition\procbeforeooo\clktrial1.qsys --block-symbol-file --output-directory=C:\Users\ASUS\Desktop\comptition\procbeforeooo\clktrial1 --family="MAX 10" --part=10M50DCF484C7G
+Progress: Loading procbeforeooo/clktrial1.qsys
+Progress: Reading input file
+Progress: Adding clock_source_0 [altera_avalon_clock_source 20.1]
+Info: altera_avalon_clock_source: Preferred Simulation Language is set to None.
+Progress: Parameterizing module clock_source_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clktrial1.clock_source_0: Elaborate: altera_clock_source
+Info: clktrial1.clock_source_0:            $Revision: #1 $
+Info: clktrial1.clock_source_0:            $Date: 2019/10/06 $
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\ASUS\Desktop\comptition\procbeforeooo\clktrial1.qsys --synthesis=VERILOG --output-directory=C:\Users\ASUS\Desktop\comptition\procbeforeooo\clktrial1\synthesis --family="MAX 10" --part=10M50DCF484C7G
+Progress: Loading procbeforeooo/clktrial1.qsys
+Progress: Reading input file
+Progress: Adding clock_source_0 [altera_avalon_clock_source 20.1]
+Progress: Parameterizing module clock_source_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clktrial1.clock_source_0: Elaborate: altera_clock_source
+Info: clktrial1.clock_source_0:            $Revision: #1 $
+Info: clktrial1.clock_source_0:            $Date: 2019/10/06 $
+Info: clktrial1: Generating clktrial1 "clktrial1" for QUARTUS_SYNTH
+Info: clock_source_0: "clktrial1" instantiated altera_avalon_clock_source "clock_source_0"
+Info: clktrial1: Done "clktrial1" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

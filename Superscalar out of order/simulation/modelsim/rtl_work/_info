@@ -1,0 +1,806 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/THINKPAD/Documents/FinalDesign/simulation/modelsim
+vALU
+Z1 !s110 1707580189
+!i10b 1
+!s100 fXfNAhGag2=YTDIc0VFfB0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR@So6JMSd;7;@UgT@bk7T0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1706577755
+8C:/Users/THINKPAD/Documents/FinalDesign/ALU.v
+FC:/Users/THINKPAD/Documents/FinalDesign/ALU.v
+!i122 2
+L0 1 35
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1707580189.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/ALU.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign
+Z8 tCvgOpt 0
+n@a@l@u
+vBPU
+Z9 !s110 1707580195
+!i10b 1
+!s100 2JQb[?;QLKehXH3EzkW^z3
+R2
+IAXRFbo3gO73_@6gNmIMma0
+R3
+R0
+w1707121599
+8C:/Users/THINKPAD/Documents/FinalDesign/BPU.v
+FC:/Users/THINKPAD/Documents/FinalDesign/BPU.v
+!i122 28
+L0 1 48
+R4
+r1
+!s85 0
+31
+Z10 !s108 1707580195.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/BPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/BPU.v|
+!i113 1
+R6
+R7
+R8
+n@b@p@u
+vBR_REG
+R9
+!i10b 1
+!s100 3MZ?M^WMeSeQzNCOQC<G41
+R2
+IGO[Vd5o=]OC6HkYN;LFN31
+R3
+R0
+w1707424140
+8C:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v
+!i122 30
+L0 1 84
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v|
+!i113 1
+R6
+R7
+R8
+n@b@r_@r@e@g
+vbrach_detector
+Z11 !s110 1707580194
+!i10b 1
+!s100 kRFWLONiNJZzJWl?PRWZ91
+R2
+I9XLj53bW4PUEjflN>eHh92
+R3
+R0
+Z12 w1706976616
+8C:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v
+FC:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v
+!i122 26
+Z13 L0 1 26
+R4
+r1
+!s85 0
+31
+Z14 !s108 1707580194.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v|
+!i113 1
+R6
+R7
+R8
+vBranch_decision
+R11
+!i10b 1
+!s100 LicBeTg_2LFCfO:@6RVZa0
+R2
+I4Vfc]1<DGYB=`Q81HcK2W2
+R3
+R0
+R12
+8C:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v
+FC:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v
+!i122 25
+R13
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v|
+!i113 1
+R6
+R7
+R8
+n@branch_decision
+vBTA
+R11
+!i10b 1
+!s100 ZXAK?o8Nbahk6PGhTdCM[2
+R2
+IKP2<9cXHN>dd]3i<UlhWS1
+R3
+R0
+w1707000595
+8C:/Users/THINKPAD/Documents/FinalDesign/BTA.v
+FC:/Users/THINKPAD/Documents/FinalDesign/BTA.v
+!i122 24
+L0 1 13
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/BTA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/BTA.v|
+!i113 1
+R6
+R7
+R8
+n@b@t@a
+vControl
+Z15 !s110 1707580191
+!i10b 1
+!s100 1YPIYhj:NSF<j5Q^HEOjD0
+R2
+IDej=[7bZFUj:jXPjBOg1f2
+R3
+R0
+w1707533110
+8C:/Users/THINKPAD/Documents/FinalDesign/Control.v
+FC:/Users/THINKPAD/Documents/FinalDesign/Control.v
+!i122 12
+L0 1 343
+R4
+r1
+!s85 0
+31
+Z16 !s108 1707580191.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/Control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/Control.v|
+!i113 1
+R6
+R7
+R8
+n@control
+vdata_mem
+R11
+!i10b 1
+!s100 mA]oN?2<6k4:lLDZ<Nh3z1
+R2
+Ic:X72lkCD=;EaBIC@1l9M1
+R3
+R0
+w1706804682
+8C:/Users/THINKPAD/Documents/FinalDesign/data_mem.v
+FC:/Users/THINKPAD/Documents/FinalDesign/data_mem.v
+!i122 22
+L0 40 70
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/data_mem.v|
+!i113 1
+R6
+R7
+R8
+vFP_RAT
+Z17 !s110 1707580192
+!i10b 1
+!s100 SJUJ_T0dnH@[CfNmP=W_E3
+R2
+I^NODhMX83fCGM4>YjQ[J<2
+R3
+R0
+w1707120889
+8C:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v
+FC:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v
+!i122 15
+L0 1 109
+R4
+r1
+!s85 0
+31
+Z18 !s108 1707580192.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v|
+!i113 1
+R6
+R7
+R8
+n@f@p_@r@a@t
+vFP_RF
+R17
+!i10b 1
+!s100 1NcU7R<RSk?OJGKcHAH2V1
+R2
+IW9h0<31h9OZ7l;ZZDHf5b0
+R3
+R0
+w1706737950
+8C:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v
+FC:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v
+!i122 14
+L0 1 49
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v|
+!i113 1
+R6
+R7
+R8
+n@f@p_@r@f
+vFPU
+R17
+!i10b 1
+!s100 l=T_JjbaN?_0:]ZhkDE6Q1
+R2
+ImTM5ZjU7?gBV]Gcl<QZb12
+R3
+R0
+w1706962750
+8C:/Users/THINKPAD/Documents/FinalDesign/FPU.v
+FC:/Users/THINKPAD/Documents/FinalDesign/FPU.v
+!i122 16
+L0 1 346
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/FPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/FPU.v|
+!i113 1
+R6
+R7
+R8
+n@f@p@u
+vGHR
+R11
+!i10b 1
+!s100 0z1DGKVlMQC=M16d5`Ned2
+R2
+I[9OeR@[K:>C61_?zdYB5V3
+R3
+R0
+w1707057166
+8C:/Users/THINKPAD/Documents/FinalDesign/GHR.v
+FC:/Users/THINKPAD/Documents/FinalDesign/GHR.v
+!i122 23
+L0 1 23
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/GHR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/GHR.v|
+!i113 1
+R6
+R7
+R8
+n@g@h@r
+vINST_REG
+R15
+!i10b 1
+!s100 W^CW8SBI^dzA1?[lDNeC42
+R2
+IDGX`7A`=1BW_o@5:LCQzZ2
+R3
+R0
+w1707121387
+8C:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v
+!i122 9
+L0 1 128
+R4
+r1
+!s85 0
+31
+Z19 !s108 1707580190.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v|
+!i113 1
+R6
+R7
+R8
+n@i@n@s@t_@r@e@g
+vINT_REG
+Z20 !s110 1707580190
+!i10b 1
+!s100 7>e6ROL@V8]>;g6RQm2:f1
+R2
+IZOz7`9FbY_8@B@GCW5>PD0
+R3
+R0
+Z21 w1707424100
+8C:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v
+!i122 7
+Z22 L0 1 60
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v|
+!i113 1
+R6
+R7
+R8
+n@i@n@t_@r@e@g
+vLW_REG
+Z23 !s110 1707580193
+!i10b 1
+!s100 e>HGPn_UX`T2]kb`?N5OL1
+R2
+IVoIhel>i0?gaQHTP`lSWQ0
+R3
+R0
+w1707424101
+8C:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v
+!i122 21
+R22
+R4
+r1
+!s85 0
+31
+Z24 !s108 1707580193.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v|
+!i113 1
+R6
+R7
+R8
+n@l@w_@r@e@g
+vMUL_REG
+R20
+!i10b 1
+!s100 6PBlDj4AF<HcJzbS_0dVY2
+R2
+I;C5SY7G^DM_OTNfZHWGl_3
+R3
+R0
+R21
+8C:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v
+!i122 8
+R22
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@l_@r@e@g
+vmultiplier
+R1
+!i10b 1
+!s100 LCGH^7=Sh@cOnYk:iO:kY3
+R2
+I[fTl:SK^XHDA3fhVa<Yco1
+R3
+R0
+w1706551656
+8C:/Users/THINKPAD/Documents/FinalDesign/multiplier.v
+FC:/Users/THINKPAD/Documents/FinalDesign/multiplier.v
+!i122 3
+L0 1 163
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/multiplier.v|
+!i113 1
+R6
+R7
+R8
+vPHT
+R9
+!i10b 1
+!s100 S0Gd`CleJO3XeJ[Ma5Ujh2
+R2
+IP_ZC<le]eU>AEb7]AB8<O1
+R3
+R0
+w1707123354
+8C:/Users/THINKPAD/Documents/FinalDesign/PHT.v
+FC:/Users/THINKPAD/Documents/FinalDesign/PHT.v
+!i122 27
+L0 1 67
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/PHT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/PHT.v|
+!i113 1
+R6
+R7
+R8
+n@p@h@t
+vProcessor
+R15
+!i10b 1
+!s100 9oAC^k>mN08@Y]bV0NW6n3
+R2
+I]2GND@75HoJLCbPEjlag]3
+R3
+R0
+w1707543362
+8C:/Users/THINKPAD/Documents/FinalDesign/Processor.v
+FC:/Users/THINKPAD/Documents/FinalDesign/Processor.v
+!i122 11
+L0 1 746
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/Processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/Processor.v|
+!i113 1
+R6
+R7
+R8
+n@processor
+vprogram_memory
+R15
+!i10b 1
+!s100 z;lz^;]<<AE^l[OUiWfH:1
+R2
+I8i:Q4]dojm<2F3<32m3<Y0
+R3
+R0
+w1706564015
+8C:/Users/THINKPAD/Documents/FinalDesign/program_memory.v
+FC:/Users/THINKPAD/Documents/FinalDesign/program_memory.v
+!i122 10
+L0 40 85
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/program_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/program_memory.v|
+!i113 1
+R6
+R7
+R8
+vRAT
+R1
+!i10b 1
+!s100 =WTEYbP;B2`R]LH9zOWiK2
+R2
+I4IbSaJkC<V7gERQ6VYYl43
+R3
+R0
+w1707545336
+8C:/Users/THINKPAD/Documents/FinalDesign/RAT.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RAT.v
+!i122 5
+L0 1 119
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RAT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RAT.v|
+!i113 1
+R6
+R7
+R8
+n@r@a@t
+vRF
+R1
+!i10b 1
+!s100 n2_J@g:C0U?E?b048DR_G3
+R2
+I]m0IZKil5M1cJS_]1GmGH1
+R3
+R0
+w1707512114
+8C:/Users/THINKPAD/Documents/FinalDesign/RF.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RF.v
+!i122 4
+L0 1 47
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RF.v|
+!i113 1
+R6
+R7
+R8
+n@r@f
+vROB
+R20
+!i10b 1
+!s100 69RJCQM1R5kXEXn=l1XNh2
+R2
+I=n<6`@;cEG<:^KA]@<V;X3
+R3
+R0
+w1707579311
+8C:/Users/THINKPAD/Documents/FinalDesign/ROB.v
+FC:/Users/THINKPAD/Documents/FinalDesign/ROB.v
+!i122 6
+L0 1 355
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/ROB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/ROB.v|
+!i113 1
+R6
+R7
+R8
+n@r@o@b
+vRP_REG
+R17
+!i10b 1
+!s100 dkX^Th82Gn=WH5T2oQhAJ1
+R2
+I>H7k`zoM_@]OloN5S6O=A0
+R3
+R0
+R21
+8C:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v
+!i122 17
+R22
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v|
+!i113 1
+R6
+R7
+R8
+n@r@p_@r@e@g
+vRS_BR
+R9
+!i10b 1
+!s100 ;0:K@=O:9XSJ@P9FINX710
+R2
+IURRHGDU:X3MJZ_ILg@6Bc1
+R3
+R0
+w1707575309
+8C:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v
+!i122 29
+L0 1 325
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v|
+!i113 1
+R6
+R7
+R8
+n@r@s_@b@r
+vRS_FP
+R23
+!i10b 1
+!s100 Q2G^[>IK^5BRlHcYIdlcY2
+R2
+I?i5E2XZch_>CjT?R0C9zB2
+R3
+R0
+w1707231247
+8C:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v
+!i122 18
+L0 1 227
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v|
+!i113 1
+R6
+R7
+R8
+n@r@s_@f@p
+vRS_INT
+!s110 1707580188
+!i10b 1
+!s100 3IJgaYB0oa2[gc7YMHR_g3
+R2
+INK<HRnIWWG7b41Si`g5KW3
+R3
+R0
+w1707573592
+8C:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v
+!i122 0
+L0 1 349
+R4
+r1
+!s85 0
+31
+!s108 1707580188.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v|
+!i113 1
+R6
+R7
+R8
+n@r@s_@i@n@t
+vRS_MEM
+R23
+!i10b 1
+!s100 UA7PmeB[30A=<A5UM9>7C3
+R2
+I03hm>cWa9dZE;Fn;nJYdo0
+R3
+R0
+w1707570726
+8C:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v
+!i122 19
+L0 1 238
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v|
+!i113 1
+R6
+R7
+R8
+n@r@s_@m@e@m
+vRS_MUL
+R1
+!i10b 1
+!s100 ^z;>VOa9l[XAUQBD0hdO=3
+R2
+I_<bbZ<aMBiTH@5=P3SPB_3
+R3
+R0
+w1707214772
+8C:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v
+FC:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v
+!i122 1
+L0 1 265
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v|
+!i113 1
+R6
+R7
+R8
+n@r@s_@m@u@l
+vsign_ext
+R17
+!i10b 1
+!s100 Se06c3OTHEK5kcQ^id]?12
+R2
+Im60KnP@L6j=6JKQ??=dWP0
+R3
+R0
+w1706570882
+8C:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v
+FC:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v
+!i122 13
+L0 1 18
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v|
+!i113 1
+R6
+R7
+R8
+vsw_buffer
+R23
+!i10b 1
+!s100 >LjJh`=5EDBgh_DnBFUP@2
+R2
+ImLDld1FYKfSd`YgWC31L83
+R3
+R0
+w1707524773
+8C:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v
+FC:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v
+!i122 20
+L0 1 100
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1707580196
+!i10b 1
+!s100 GQi`BS<c1Z_n5oF1cL[zC0
+R2
+IN03F^LXkb4Hnj<5AhYbmV1
+R3
+S1
+R0
+w1707579711
+8C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv
+FC:/Users/THINKPAD/Documents/FinalDesign/testbench.sv
+!i122 31
+L0 2 191
+R4
+r1
+!s85 0
+31
+!s108 1707580196.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign
+R8

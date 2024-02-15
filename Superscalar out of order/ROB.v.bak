@@ -1,0 +1,106 @@
+module ROB(
+
+input clk, rst, we_INT1, we_INT2, we_MUL,
+input [4:0] wr_addr_INT1, wr_addr_INT2, wr_addr_MUL,
+input [31:0] data_INT1, data_INT2, data_MUL,
+
+output we_C1, we_C2,
+output [4:0] wr_addr_C1, wr_addr_2,
+output [31:0] wr_data_C1, wr_data_C2,
+
+output [4:0] wr_p, rd_p,
+output stall
+
+);
+
+
+	reg        we      [31:0];
+	
+	reg [4:0]  wr_addr [31:0];
+	
+	reg [31:0] wr_data [31:0];
+
+	
+	assign we_C1      = we[rd_p];
+	
+	assign wr_addr_C1 = wr_addr[rd_p];
+	
+	assign wr_data_C1 = wr_data[rd_p];
+	
+	
+	assign we_C2      = we[rd_p + 5'b1];
+	
+	assign wr_addr_C2 = wr_addr[rd_p + 5'b1];
+	
+	assign wr_data_C2 = wr_data[rd_p + 5'b1];
+	
+	
+	always@(posedge clk, posedge rst) begin : MAIN_BLOCK
+	
+		integer i;
+	
+		if (rst) begin
+		
+			for (i = 0; i < 32; i = i + 1) begin
+			
+				we      [i] <= 1'b0;
+				
+				wr_addr [i] <= 5'b0;
+				
+				wr_data [i] <= 31'b0;
+			
+			end
+	
+		end
+		
+		else begin
+		
+			if (~stall)  begin
+			
+				if (we_INT1) begin
+				
+					we      [dst_tag_INT1] <= we_INT1;
+				
+					wr_addr [dst_tag_INT1] <= dst_INT1;
+					
+					wr_data [dst_tag_INT1] <= data_INT1;
+				
+				end
+				
+				if (we_INT2) begin
+				
+					we      [dst_tag_INT2] <= we_INT2;
+					
+					wr_addr [dst_tag_INT2] <= dst_INT2;
+					
+					wr_data [dst_tag_INT2] <= data_INT2;
+					
+				end
+				
+				if (we_MUL) begin
+				
+					we      [dst_tag_MUL] <= we_MUL;
+					
+					wr_addr [dst_tag_MUL] <= dst_MUL;
+					
+					wr_data [dst_tag_MUL] <= data_MUL;
+				
+				end
+			
+			end
+			
+			if (we[wr_p + 5'b1] & we[wr_p]) rd_p <= rd_p + 5'd2;
+			
+			if (~(wr_p + 5'b2 == rd_p)) wr_p <= wr_p + 5'd2;
+			
+			stall <= ((wr_p + 5'd2) == rd_p);
+		
+		
+		end
+	
+	
+	end
+
+
+
+endmodule

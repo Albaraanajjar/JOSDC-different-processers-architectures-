@@ -1,0 +1,11 @@
+module BTAaddr(
+input [0:4] address_P1,
+input [0:4] immediate,
+output [0:4] Targetaddress
+
+);
+
+
+	assign Targetaddress = address_P1 + immediate ;
+
+endmodule

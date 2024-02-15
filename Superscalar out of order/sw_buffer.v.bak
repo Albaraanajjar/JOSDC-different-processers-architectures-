@@ -1,0 +1,64 @@
+module sw_buffer(
+
+input clk, rst, inc,
+input [9:0] addf_i,
+input [31:0] data_i,
+
+output [9:0] addr_m,
+output [31:0] data_m,
+output reg stall
+
+);
+
+
+	reg [9:0]  addr [2:0];
+	
+	reg [31:0] data [2:0];
+	
+	
+	reg [1:0] wr_p, rd_p;
+	
+	
+	assign data_m <= data[rd_p];
+	
+	assign addr_m <= addr[rd_p];
+	
+	always@(posedge clk, posedge reset) begin : MAIN_BLOCK
+	
+		integer i;
+	
+		if (rst) begin
+		
+			for (i = 0; i < 3; i = i + 1) begin
+			
+				addr [i] <= 10'b0;
+				
+				data [i] <= 31'b0;
+		
+			end
+			
+			wr_p <= 2'b0;
+			
+			rd_p <= 2'b0;
+		
+		end
+		
+		else begin
+		
+			if (we & ~stall) begin
+			
+				data [wr_p] <= data_i;
+				
+				addr [wr_p] <= adde_i;
+			
+			end
+			
+			if (inc & ~stall) rd_p <= rd_p + 1'b1;
+			
+			stall <= (rd_p == wr_p + 1'b1);
+		
+		end
+	
+	end
+
+endmodule

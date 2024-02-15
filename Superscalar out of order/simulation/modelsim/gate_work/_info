@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/THINKPAD/Documents/FinalDesign/simulation/modelsim
+vhard_block
+Z1 !s110 1707218332
+!i10b 1
+!s100 Dk7M;6m9YHM?k_4MRcFlA1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IfcDoYR=20GMUO^KXA[R=W0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1707211958
+Z5 8Final.vo
+Z6 FFinal.vo
+!i122 0
+L0 760728 45
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1707218328.000000
+Z9 !s107 Final.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Final.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vProcessor
+R1
+!i10b 1
+!s100 m2FDW@NZU[2g]]Tm7J5b=2
+R2
+IdkUS]@HfY7zDznb>L3VBm2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 760695
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@processor
+vtestbench
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R1
+!i10b 1
+!s100 4dK@[M0XYon4e=BGB]5cO1
+R2
+ICQlB;oXc3_h0?D1jR]YKf2
+R3
+S1
+R0
+w1707216102
+8C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv
+FC:/Users/THINKPAD/Documents/FinalDesign/testbench.sv
+!i122 1
+L0 2 123
+R7
+r1
+!s85 0
+31
+!s108 1707218332.000000
+!s107 C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/THINKPAD/Documents/FinalDesign|C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign
+R13

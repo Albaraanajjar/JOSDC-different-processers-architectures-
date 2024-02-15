@@ -1,0 +1,36 @@
+module INST_REG(
+
+input clk, rst, stall,
+input [31:0] first_F, second_F,
+
+output [31:0] first_D, second_D,
+
+);
+
+	reg [31:0] first_inst, second_inst;
+	
+	assign first_D  = first_inst;
+	
+	assign second_D = second_inst;
+	
+	always@(posedge clk, posedge rst) begin
+	
+		if (rst) begin
+		
+			first_inst  <= 0;
+			
+			second_inst <= 0;
+		
+		end
+		
+		else if (~stall) begin
+		
+			first_inst <=  first_F;
+			
+			second_inst <= second_F;
+		
+		end
+	
+	end
+	
+endmodule

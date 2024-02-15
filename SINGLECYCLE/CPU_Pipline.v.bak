@@ -1,0 +1,25 @@
+module CPU_Pipline(clk.INSTRin,PCin,PCnext);
+input [31:0] INSTRin;
+input [31:0] PCin;
+input clk;
+output [31:0] PCnext;
+wire [31:0] Immresult,PCout,ALUres,Alusecin,INSTRout,readData1,readData2,writedata,ext_imm,immpartout,ReadData1out,ReadData2out;
+wire [4:0] Rdout,Rtout,Regout;
+wire [2:0] aluinp;
+wire zero;
+//firststage
+IF_ID f1(clk,INSTRin,PCin,PCout,INSTRout);
+FileReg fr1(RegWrite,INSTRout[25:21],INSTRout[20:16],writereg,writedata,readData1,readData2);
+SIGN_EXTENTION se(INSTRout[15:0], ext_imm);
+//secondstage
+ID_EX(clk,ext_imm,INSTRout[20:16],INSTRout[15:11],ReadData1,ReadData2,PCout,immpartout,Rdout,Rtout,ReadData1out,ReadData2out,PCout);
+mux2to1_5 m215(Rdout,Rtout,RegDst,Regout);//RegDst needs to be assigned from controlunit
+ALUcontrol aluc(immpartout[5:0],aluop,aluinp);//aluop needs to be assigned from control
+mux2to1_32(ReadData2out,immpartout,AluSrc,Alusecin);//AluSrc needs to be assigned from control
+ALUunit aluu(ReadData1,Alusecin,aluop,ALUres,zero);
+SHIFT_LIFT_BY_1BIT sl(immpartout,Immresult);
+addr addr(Immresult,PCout,PCout);
+//thirdstage
+
+//
+endmodule 

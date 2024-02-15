@@ -1,0 +1,278 @@
+# Reading pref.tcl
+# do Full_pipline_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_32BIT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:58 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_32BIT.v 
+# -- Compiling module TWO_TO_ONE_MUX_32BIT
+# 
+# Top level modules:
+# 	TWO_TO_ONE_MUX_32BIT
+# End time: 01:44:58 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_5BIT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:58 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_5BIT.v 
+# -- Compiling module TWO_TO_ONE_MUX_5BIT
+# 
+# Top level modules:
+# 	TWO_TO_ONE_MUX_5BIT
+# End time: 01:44:58 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/SIGN_EXTENTION.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:58 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/SIGN_EXTENTION.v 
+# -- Compiling module SIGN_EXTENTION
+# 
+# Top level modules:
+# 	SIGN_EXTENTION
+# End time: 01:44:58 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/REGISTER_FILE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:59 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/REGISTER_FILE.v 
+# -- Compiling module REGISTER_FILE
+# 
+# Top level modules:
+# 	REGISTER_FILE
+# End time: 01:44:59 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/PIPELINE_MIPS_PROCESSOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:59 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/PIPELINE_MIPS_PROCESSOR.v 
+# -- Compiling module PIPELINE_MIPS_PROCESSOR
+# 
+# Top level modules:
+# 	PIPELINE_MIPS_PROCESSOR
+# End time: 01:44:59 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/PHT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:59 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/PHT.v 
+# -- Compiling module PHT
+# 
+# Top level modules:
+# 	PHT
+# End time: 01:44:59 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/MEM_WRITEBACK_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:59 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/MEM_WRITEBACK_REG.v 
+# -- Compiling module MEM_WRITEBACK_REG
+# 
+# Top level modules:
+# 	MEM_WRITEBACK_REG
+# End time: 01:44:59 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_MEMORY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:44:59 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_MEMORY.v 
+# -- Compiling module INSTRUCTION_MEMORY
+# 
+# Top level modules:
+# 	INSTRUCTION_MEMORY
+# End time: 01:44:59 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_FETCH_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_FETCH_REG.v 
+# -- Compiling module INSTRUCTION_FETCH_REG
+# 
+# Top level modules:
+# 	INSTRUCTION_FETCH_REG
+# End time: 01:45:00 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_EXCUTE_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_EXCUTE_REG.v 
+# -- Compiling module INSTRUCTION_EXCUTE_REG
+# 
+# Top level modules:
+# 	INSTRUCTION_EXCUTE_REG
+# End time: 01:45:00 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_DECODE_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_DECODE_REG.v 
+# -- Compiling module INSTRUCTION_DECODE_REG
+# 
+# Top level modules:
+# 	INSTRUCTION_DECODE_REG
+# End time: 01:45:00 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/HAZARD_CONTROL_UNIT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/HAZARD_CONTROL_UNIT.v 
+# -- Compiling module HAZARD_CONTROL_UNIT
+# 
+# Top level modules:
+# 	HAZARD_CONTROL_UNIT
+# End time: 01:45:00 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/FOUR_TO_ONE_MUX_32BIT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/FOUR_TO_ONE_MUX_32BIT.v 
+# -- Compiling module FOUR_TO_ONE_MUX_32BIT
+# 
+# Top level modules:
+# 	FOUR_TO_ONE_MUX_32BIT
+# End time: 01:45:00 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/DATA_MEMORY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:00 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/DATA_MEMORY.v 
+# -- Compiling module DATA_MEMORY
+# 
+# Top level modules:
+# 	DATA_MEMORY
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/CONTROL_UNIT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:01 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/CONTROL_UNIT.v 
+# -- Compiling module CONTROL_UNIT
+# 
+# Top level modules:
+# 	CONTROL_UNIT
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/BTAaddr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:01 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/BTAaddr.v 
+# -- Compiling module BTAaddr
+# 
+# Top level modules:
+# 	BTAaddr
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/branch_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:01 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/branch_detector.v 
+# -- Compiling module branch_detector
+# 
+# Top level modules:
+# 	branch_detector
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/Branch_decision.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:01 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/Branch_decision.v 
+# -- Compiling module Branch_decision
+# 
+# Top level modules:
+# 	Branch_decision
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/BPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:01 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/BPU.v 
+# -- Compiling module BPU
+# 
+# Top level modules:
+# 	BPU
+# End time: 01:45:01 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:02 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 01:45:02 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/GlobalHistoryRegister.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:02 on Dec 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/GlobalHistoryRegister.v 
+# -- Compiling module GlobalHistoryRegister
+# 
+# Top level modules:
+# 	GlobalHistoryRegister
+# End time: 01:45:02 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:02 on Dec 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo" C:/Users/ASUS/Desktop/comptition/procbeforeooo/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:45:02 on Dec 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:45:03 on Dec 23,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.PIPELINE_MIPS_PROCESSOR
+# Loading work.BPU
+# Loading work.branch_detector
+# Loading work.PHT
+# Loading work.GlobalHistoryRegister
+# Loading work.SIGN_EXTENTION
+# Loading work.BTAaddr
+# Loading work.INSTRUCTION_MEMORY
+# Loading altera_mf_ver.altsyncram
+# Loading work.INSTRUCTION_FETCH_REG
+# Loading work.CONTROL_UNIT
+# Loading work.REGISTER_FILE
+# Loading work.INSTRUCTION_DECODE_REG
+# Loading work.FOUR_TO_ONE_MUX_32BIT
+# Loading work.TWO_TO_ONE_MUX_32BIT
+# Loading work.TWO_TO_ONE_MUX_5BIT
+# Loading work.ALU
+# Loading work.Branch_decision
+# Loading work.INSTRUCTION_EXCUTE_REG
+# Loading work.DATA_MEMORY
+# Loading work.MEM_WRITEBACK_REG
+# Loading work.HAZARD_CONTROL_UNIT
+# ** Error: (vsim-3033) Instantiation of 'clk_forsample' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/ASUS/Desktop/comptition/procbeforeooo/testbench.sv Line: 18
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             C:/Users/ASUS/Desktop/comptition/procbeforeooo/simulation/modelsim/rtl_work
+#             C:/Users/ASUS/Desktop/comptition/procbeforeooo/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Full_pipline_run_msim_rtl_verilog.do PAUSED at line 32
+# End time: 01:55:35 on Dec 23,2023, Elapsed time: 0:10:32
+# Errors: 1, Warnings: 0

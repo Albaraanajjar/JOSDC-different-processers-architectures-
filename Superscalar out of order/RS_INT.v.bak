@@ -1,0 +1,9 @@
+module RS_INT();
+
+	reg busy [7:0];
+	
+	reg v 	[7:0];
+	
+	reg []
+
+endmodule

@@ -1,0 +1,18 @@
+|ControlUnit
+opcode[0] => Decoder0.IN5
+opcode[1] => Decoder0.IN4
+opcode[2] => Decoder0.IN3
+opcode[3] => Decoder0.IN2
+opcode[4] => Decoder0.IN1
+opcode[5] => Decoder0.IN0
+Regdst << Regdst$latch.DB_MAX_OUTPUT_PORT_TYPE
+Alusrc << Alusrc$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemtoReg << MemtoReg$latch.DB_MAX_OUTPUT_PORT_TYPE
+Regwrite << Regwrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemRead << MemRead$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite << MemWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+Branch << Branch$latch.DB_MAX_OUTPUT_PORT_TYPE
+AluoP[0] << AluoP[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+AluoP[1] << AluoP[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,54 @@
+module PHT (
+input clk,
+input reset,
+input [4:0] InstrAddr_F,
+input [4:0] InstrAddr_E,
+input update_signal,
+input actual_outcome,
+input is_branch,
+output reg prediction
+); //pattern history table
+
+reg [1:0] PHtable [31:0];
+
+integer i;
+
+
+
+always @(posedge clk, posedge reset) begin  //initilize to weakly not taken
+	if(reset) begin
+	   for(i=0; i < 32; i = i + 1) begin
+			PHtable[i] = 2'b01;
+		end
+	end
+	else if (update_signal) begin
+        // Update the PHT
+        if (actual_outcome) begin
+            // Branch taken increment the counter if not strongly taken
+            if (~(PHtable[InstrAddr_E] == 2'b11))
+                PHtable[InstrAddr_E] = PHtable[InstrAddr_E] + 2'b01;
+        end else begin
+            // Branch not taken decrement the counter if not strongly not taken
+            if (~(PHtable[InstrAddr_E] == 2'b00))
+                PHtable[InstrAddr_E] = PHtable[InstrAddr_E] - 2'b01;
+        end
+    end
+
+end
+
+always @(InstrAddr_F, is_branch) begin
+    // Determine prediction only if it's a branch instruction
+    if (is_branch) begin
+		 case(PHtable[InstrAddr_F])
+			2'b00 : prediction=0;
+			2'b01 : prediction=0;
+			2'b10 : prediction=1;
+			2'b11 : prediction=1;
+			endcase
+		end
+    
+	 else prediction = 0;  // Default
+    
+end
+
+endmodule 

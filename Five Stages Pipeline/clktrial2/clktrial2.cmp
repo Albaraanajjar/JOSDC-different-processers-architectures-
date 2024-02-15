@@ -1,0 +1,6 @@
+	component clktrial2 is
+		port (
+			clk : out std_logic   -- clk
+		);
+	end component clktrial2;
+

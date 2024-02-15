@@ -1,0 +1,396 @@
+# Reading pref.tcl
+# do Final_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:48 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RS_INT.v 
+# -- Compiling module RS_INT
+# 
+# Top level modules:
+# 	RS_INT
+# End time: 18:49:48 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:49 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RS_MUL.v 
+# -- Compiling module RS_MUL
+# 
+# Top level modules:
+# 	RS_MUL
+# End time: 18:49:49 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:49 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/ALU.v 
+# -- Compiling module ALU
+# ** Warning: C:/Users/THINKPAD/Documents/FinalDesign/ALU.v(16): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: C:/Users/THINKPAD/Documents/FinalDesign/ALU.v(17): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:49:49 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/multiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:49 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 18:49:49 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:49 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RF.v 
+# -- Compiling module RF
+# 
+# Top level modules:
+# 	RF
+# End time: 18:49:49 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RAT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:49 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RAT.v 
+# -- Compiling module RAT
+# 
+# Top level modules:
+# 	RAT
+# End time: 18:49:49 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/ROB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:50 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/ROB.v 
+# -- Compiling module ROB
+# 
+# Top level modules:
+# 	ROB
+# End time: 18:49:50 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:50 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/INT_REG.v 
+# -- Compiling module INT_REG
+# 
+# Top level modules:
+# 	INT_REG
+# End time: 18:49:50 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:50 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/MUL_REG.v 
+# -- Compiling module MUL_REG
+# 
+# Top level modules:
+# 	MUL_REG
+# End time: 18:49:50 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:50 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/INST_REG.v 
+# -- Compiling module INST_REG
+# 
+# Top level modules:
+# 	INST_REG
+# End time: 18:49:51 on Feb 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/program_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:51 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/program_memory.v 
+# -- Compiling module program_memory
+# 
+# Top level modules:
+# 	program_memory
+# End time: 18:49:51 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/Processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:51 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/Processor.v 
+# -- Compiling module Processor
+# 
+# Top level modules:
+# 	Processor
+# End time: 18:49:51 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/Control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:51 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/Control.v 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 18:49:51 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:51 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/sign_ext.v 
+# -- Compiling module sign_ext
+# 
+# Top level modules:
+# 	sign_ext
+# End time: 18:49:52 on Feb 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:52 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/FP_RF.v 
+# -- Compiling module FP_RF
+# 
+# Top level modules:
+# 	FP_RF
+# End time: 18:49:52 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:52 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/FP_RAT.v 
+# -- Compiling module FP_RAT
+# 
+# Top level modules:
+# 	FP_RAT
+# End time: 18:49:52 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/FPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:52 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/FPU.v 
+# -- Compiling module FPU
+# 
+# Top level modules:
+# 	FPU
+# End time: 18:49:52 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:52 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RP_REG.v 
+# -- Compiling module RP_REG
+# 
+# Top level modules:
+# 	RP_REG
+# End time: 18:49:52 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:53 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RS_FP.v 
+# -- Compiling module RS_FP
+# 
+# Top level modules:
+# 	RS_FP
+# End time: 18:49:53 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:53 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RS_MEM.v 
+# -- Compiling module RS_MEM
+# 
+# Top level modules:
+# 	RS_MEM
+# End time: 18:49:53 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:53 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/sw_buffer.v 
+# -- Compiling module sw_buffer
+# 
+# Top level modules:
+# 	sw_buffer
+# End time: 18:49:53 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:53 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/LW_REG.v 
+# -- Compiling module LW_REG
+# 
+# Top level modules:
+# 	LW_REG
+# End time: 18:49:53 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/data_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:54 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/data_mem.v 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 18:49:54 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/GHR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:54 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/GHR.v 
+# -- Compiling module GHR
+# 
+# Top level modules:
+# 	GHR
+# End time: 18:49:54 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/BTA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:54 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/BTA.v 
+# -- Compiling module BTA
+# 
+# Top level modules:
+# 	BTA
+# End time: 18:49:54 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:54 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/Branch_decision.v 
+# -- Compiling module Branch_decision
+# 
+# Top level modules:
+# 	Branch_decision
+# End time: 18:49:54 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:54 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/brach_detector.v 
+# -- Compiling module brach_detector
+# 
+# Top level modules:
+# 	brach_detector
+# End time: 18:49:54 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/PHT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:55 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/PHT.v 
+# -- Compiling module PHT
+# 
+# Top level modules:
+# 	PHT
+# End time: 18:49:55 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/BPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:55 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/BPU.v 
+# -- Compiling module BPU
+# 
+# Top level modules:
+# 	BPU
+# End time: 18:49:55 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:55 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/RS_BR.v 
+# -- Compiling module RS_BR
+# 
+# Top level modules:
+# 	RS_BR
+# End time: 18:49:55 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:55 on Feb 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/BR_REG.v 
+# -- Compiling module BR_REG
+# 
+# Top level modules:
+# 	BR_REG
+# End time: 18:49:55 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/THINKPAD/Documents/FinalDesign {C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:49:56 on Feb 10,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/THINKPAD/Documents/FinalDesign" C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:49:56 on Feb 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:49:56 on Feb 10,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Processor
+# Loading work.BPU
+# Loading work.brach_detector
+# Loading work.PHT
+# Loading work.GHR
+# Loading work.sign_ext
+# Loading work.BTA
+# Loading work.program_memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.INST_REG
+# Loading work.Control
+# Loading work.RF
+# Loading work.FP_RF
+# Loading work.RAT
+# Loading work.FP_RAT
+# Loading work.ROB
+# Loading work.RS_INT
+# Loading work.ALU
+# Loading work.INT_REG
+# Loading work.RS_MUL
+# Loading work.multiplier
+# Loading work.MUL_REG
+# Loading work.RS_FP
+# Loading work.FPU
+# Loading work.RP_REG
+# Loading work.RS_MEM
+# Loading work.sw_buffer
+# Loading work.data_mem
+# Loading work.LW_REG
+# Loading work.RS_BR
+# Loading work.Branch_decision
+# Loading work.BR_REG
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: THINKPAD  Hostname: THINKPAD250  ProcessID: 16148
+#           Attempting to use alternate WLF file "./wlfte6d867".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte6d867
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: testbench.uut.inst_mem.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $finish    : C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv(126)
+#    Time: 2500 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/THINKPAD/Documents/FinalDesign/testbench.sv line 126
+# End time: 20:20:36 on Feb 10,2024, Elapsed time: 1:30:40
+# Errors: 0, Warnings: 2

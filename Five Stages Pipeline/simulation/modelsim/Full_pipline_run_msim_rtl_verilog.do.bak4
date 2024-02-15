@@ -1,0 +1,37 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_32BIT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/TWO_TO_ONE_MUX_5BIT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/SIGN_EXTENTION.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/REGISTER_FILE.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/PIPELINE_MIPS_PROCESSOR.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/PHT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/MEM_WRITEBACK_REG.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_MEMORY.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_FETCH_REG.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_EXCUTE_REG.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_DECODE_REG.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/HAZARD_CONTROL_UNIT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/FOUR_TO_ONE_MUX_32BIT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/DATA_MEMORY.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/CONTROL_UNIT.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/BTAaddr.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/branch_detector.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/Branch_decision.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/BPU.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/ALU.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/GlobalHistoryRegister.v}
+
+vlog -sv -work work +incdir+C:/Users/ASUS/Desktop/comptition/procbeforeooo {C:/Users/ASUS/Desktop/comptition/procbeforeooo/testbench.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench.sv
+
+add wave *
+view structure
+view signals
+run -all

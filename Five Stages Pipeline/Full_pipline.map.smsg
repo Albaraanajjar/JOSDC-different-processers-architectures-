@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at PIPELINE_MIPS_PROCESSOR.v(21): object "Branch" differs only in case from object "branch" in the same scope File: C:/Users/ASUS/Desktop/comptition/procbeforeooo/PIPELINE_MIPS_PROCESSOR.v Line: 21
+Warning (10268): Verilog HDL information at INSTRUCTION_FETCH_REG.v(22): always construct contains both blocking and non-blocking assignments File: C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_FETCH_REG.v Line: 22
+Warning (10268): Verilog HDL information at INSTRUCTION_EXCUTE_REG.v(28): always construct contains both blocking and non-blocking assignments File: C:/Users/ASUS/Desktop/comptition/procbeforeooo/INSTRUCTION_EXCUTE_REG.v Line: 28

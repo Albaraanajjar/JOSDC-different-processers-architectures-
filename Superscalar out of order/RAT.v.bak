@@ -1,0 +1,112 @@
+module RAT(
+
+input clk, rst, C_we1, C_we2,
+input [4:0] INT_tag1, INT_tag2, MUL_tag, INT_dst1, INT_dst2, MUL_dst, C_addr1, C_addr2, first1, first2, second1, second2, new_tag1, new_tag2, wr_addr1, wr_addr2,
+
+output first_v1, first_v2, second_v1, second_v2, first_r1, first_r2, second_r1, second_r2,
+output [4:0] first_tag1, first_tag2, second_tag1, second_tag2
+
+);
+
+	
+   reg [4:0] tag [31:0];
+	
+	reg       v   [31:0];
+	
+	reg       r   [31:0];
+	
+	
+	assign first_tag1  = tag[first1];
+	
+	assign second_tag1 = tag[second1];
+	
+	assign first_v1    = v[first1];
+	
+	assign second_v1   = v[second1];
+	
+	assign first_r1    = r[first1];
+	
+	assign second_r1   = r[second1];
+	
+	
+	assign first_tag2  = tag[first2];
+	
+	assign second_tag2 = tag[second2];
+	
+	assign first_v2    = v[first2];
+	
+	assign second_v2   = v[second2];
+	
+	assign first_r2    = r[first2];
+	
+	assign second_r2   = r[second2];
+	
+	
+	
+	always@(posedge clk, posedge rst) begin : MAIN_BLOCK
+	
+		integer i;
+	
+		if (rst) begin
+		
+			for (i = 0; i < 31; i = i + 1) begin
+			
+				tag [i] <= 4'b0;
+			
+				v   [i] <= 1'b1;
+				
+				r   [i] <= 1'b0;
+			
+			end
+			
+				tag [31] <= 4'b0;
+			
+				v   [31] <= 1'b1;
+				
+				r   [31] <= 1'b1;
+		
+		end
+		
+		else begin
+		
+			if (~(wr_addr1 == 1'b0) & we1) begin
+			
+				tag [wr_addr1] <= new_tag1;
+				
+				v   [wr_addr1] <= 1'b0;
+				
+				r   [wr_addr1] <= 1'b0;
+			
+			end
+			
+			if (~(wr_addr2 == 1'b0) & we2) begin
+			
+				tag [wr_addr2] <= new_tag2;
+				
+				v   [wr_addr2] <= 1'b0;
+				
+				r   [wr_addr2] <= 1'b0;
+			
+			end
+			
+			
+			if (~r[INT_dst1] & (tag[INT_dst1] == INT_tag1)) r[INT_dst1] <= 1'b1;
+			
+			if (~r[INT_dst2] & (tag[INT_dst2] == INT_tag2)) r[INT_dst2] <= 1'b1;
+			
+			if (~r[MUL_dst]  & (tag[MUL_dst] == MUL_tag))   r[MUL_dst]  <= 1'b1;
+			
+			
+			if (r[C_addr1] & C_we1) v[C_addr1] <= 1'b1;
+				
+			if (r[C_addr2] & C_we2) v[C_addr2] <= 1'b1;	
+			
+		
+		end
+	
+	
+	end
+
+
+
+endmodule

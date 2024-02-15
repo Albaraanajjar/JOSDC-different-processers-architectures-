@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Feb 08 03:35:25 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Full_pipline
+Top-level Entity Name : PIPELINE_MIPS_PROCESSOR
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 4,254 / 49,760 ( 9 % )
+    Total combinational functions : 3,350 / 49,760 ( 7 % )
+    Dedicated logic registers : 2,763 / 49,760 ( 6 % )
+Total registers : 2763
+Total pins : 2 / 360 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 321,536 / 1,677,312 ( 19 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
